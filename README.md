@@ -27,8 +27,8 @@ Each week contains:
 
 | Week | Task Description | Submission Link |
 |------|------------------|------------------|
-| Week 1 | [Brief description of the task] | [GitHub Folder Link] |
-| Week 2 | [Brief description of the task] | [GitHub Folder Link] |
+| Week 1 | [Basics of HTML && CSS] | [https://github.com/CODEMASTER-ABDULLAH-92/CosmiCode-Internship/tree/main/Week1] |
+| Week 2 | [Learn JS and DOM ] | [] |
 ---
 ## 🧑‍💻 About Me
 
