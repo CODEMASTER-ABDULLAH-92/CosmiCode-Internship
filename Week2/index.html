@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #f7f9fc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        form {
+            background: white;
+            padding: 30px 40px;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: #333;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 15px;
+            color: #555;
+            font-size: 14px;
+        }
+
+        input[type="text"],
+        input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 14px;
+            transition: border-color 0.3s;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus {
+            border-color: #007bff;
+            outline: none;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #message {
+            color: red;
+            font-size: 14px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form id="form">
+            <p id="message"></p>
+            <h1>Input Form</h1>
+            <label for="name">
+                Name:
+                <input type="text" id="name">
+            </label>
+            <label for="email">
+                Email:
+                <input type="email" id="email">
+            </label>
+            <label for="password">
+                Password:
+                <input type="text" id="password">
+            </label>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script>
+        const form = document.getElementById("form");
+        const nameRef = document.getElementById("name");
+        const emailRef = document.getElementById("email");
+        const passwordRef = document.getElementById("password");
+        const messageRef = document.getElementById("message");
+        const validating = (e) => {
+            e.preventDefault();
+
+            if (!nameRef.value.trim()) {
+                messageRef.innerText = "Name is required.";
+                return;
+            }
+
+            if (!emailRef.value.trim()) {
+                messageRef.innerText = "Email is required.";
+                return;
+            }
+
+            if (!passwordRef.value.trim()) {
+                messageRef.innerText = "Password is required.";
+                return;
+            }
+
+            messageRef.innerText = "";
+            console.log("Name:", nameRef.value);
+            console.log("Email:", emailRef.value);
+            console.log("Password:", passwordRef.value);
+            alert("Form submitted successfully!");
+        };
+
+        form.addEventListener("submit", validating);
+    </script>
+</body>
+</html>
