@@ -32,29 +32,3 @@ adding.addEventListener("click", () => {
   // Clear input
   taskInput.value = "";
 });
-
-
-// JSON.stringify()	Converts object/array → string
-// JSON.parse()	Converts string → object/array
-
-// JSON.parse() is a built-in JavaScript method that converts a JSON-formatted string into a JavaScript object.
-
-// ✅ Syntax:
-
-// JSON.parse(text);
-// ✅ Example:
-
-// const jsonString = '{"name": "Abdullah", "age": 21}';
-// const obj = JSON.parse(jsonString);
-
-// console.log(obj.name); // Output: Abdullah
-// console.log(obj.age);  // Output: 21
-// 🔐 Use Case:
-// You use JSON.parse() when you're receiving data as a string in JSON format, often from:
-
-// APIs
-
-// localStorage
-
-// Files
-
