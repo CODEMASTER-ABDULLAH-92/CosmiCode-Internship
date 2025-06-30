@@ -27,9 +27,9 @@ Each week contains:
 
 | Week | Task Description | Submission Link |
 |------|------------------|------------------|
-| Week 1 | [Basics of HTML && CSS] |[Repo Link](https://github.com/CODEMASTER-ABDULLAH-92/CosmiCode-Internship/tree/main/Week1)   |
-| Week 2 | [Learn JS and DOM ] | [Repo Link](https://github.com/CODEMASTER-ABDULLAH-92/CosmiCode-Internship/tree/main/Week2) |
-| Week 2 | [Learn React & Tailwind ] | [Repo Link](https://github.com/CODEMASTER-ABDULLAH-92/CosmiCode-Internship/tree/main/Week3) |
+| Week 1 | Basics of HTML && CSS |[Repo Link](https://github.com/CODEMASTER-ABDULLAH-92/CosmiCode-Internship/tree/main/Week1)   |
+| Week 2 | Learn JS and DOM  | [Repo Link](https://github.com/CODEMASTER-ABDULLAH-92/CosmiCode-Internship/tree/main/Week2) |
+| Week 2 | Learn React & Tailwind  | [Repo Link](https://github.com/CODEMASTER-ABDULLAH-92/CosmiCode-Internship/tree/main/Week3) |
 ---
 ## 🧑‍💻 About Me
 
