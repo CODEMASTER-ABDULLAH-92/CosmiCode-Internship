@@ -32,6 +32,7 @@ Each week contains:
 | Week 3 | Learn React & Tailwind  | [Repo Link](https://github.com/CODEMASTER-ABDULLAH-92/CosmiCode-Internship/tree/main/Week3) |
 | Week 4 | Install Node & Express and working with Api To make the CRUD  | [Repo Link](https://github.com/CODEMASTER-ABDULLAH-92/CosmiCode-Internship/tree/main/Week4) |
 | Week 5 |Complete User Auth and Creating Mern Post App| [Repo Link](https://github.com/CODEMASTER-ABDULLAH-92/CosmiCode-Internship/tree/main/Week5) |
+| Week 6 |Complete the Mern Project| [Repo Link](https://github.com/CODEMASTER-ABDULLAH-92/CosmiCode-Internship/tree/main/Week6) |
 ---
 ## 🧑‍💻 About Me
 
