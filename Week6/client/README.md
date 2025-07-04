@@ -18,13 +18,11 @@ TaskFlow is a full-featured Task Management Application built with the MERN Stac
 ---
 
 ## 🖼️ Screenshots
-## 🖼️ Screenshots
-
 ### 🔐 Login Page
-![S1](./screenshots/s1.png)
+![S1](../client/src/screenshots/s1.png)
 
 ### 📋 Task Dashboard
-![S2](./screenshots/s2.png)
+![S2](../client/src/screenshots/s2.png)
 
 ---
 
