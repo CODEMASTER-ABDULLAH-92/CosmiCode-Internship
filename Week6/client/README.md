@@ -1,12 +1,48 @@
-# React + Vite
+# 📋 TaskFlow – MERN Stack Task Management App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TaskFlow is a full-featured Task Management Application built with the MERN Stack (MongoDB, Express.js, React.js, Node.js). It allows users to create, update, delete, and manage their tasks efficiently. The app includes user authentication, task categorization, status filters, and a responsive UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ User Authentication (Register/Login with JWT)
+- 📝 Create, Read, Update, and Delete Tasks
+- 📌 Task Prioritization (High, Medium, Low)
+- 📅 Due Dates and Status Tracking (Pending, In Progress, Completed)
+- 🔍 Filter & Search Tasks
+- 🎨 Responsive and Modern UI with Tailwind CSS
+- 🔐 Protected Routes for Authenticated Users
+- 📦 RESTful API Integration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🖼️ Screenshots
+## 🖼️ Screenshots
+
+### 🔐 Login Page
+![S1](./screenshots/s1.png)
+
+### 📋 Task Dashboard
+![S2](./screenshots/s2.png)
+
+---
+
+## 🧰 Tech Stack
+
+**Frontend**  
+- React.js  
+- Tailwind CSS  
+- Axios  
+- React Router DOM  
+- Context API or Redux (optional)
+
+**Backend**  
+- Node.js  
+- Express.js  
+- MongoDB with Mongoose  
+- JSON Web Token (JWT)  
+- bcryptjs for password hashing  
+- dotenv for environment variables
+
+---
